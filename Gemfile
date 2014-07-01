@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'psych'
 
 platforms :ruby do
+  gem 'psych'
   gem 'sqlite3'
 end
 
